@@ -1,9 +1,11 @@
 @font-face {
   font-family: 'DaxlinePro-Medium';
-  src: url("src/assets/font/DaxlinePro-Medium.ttf");
+  src: url("../font/DaxlinePro-Medium.ttf");
 }
 
 body {
+  overflow-x: hidden;
+  overflow-y: auto;
   margin: 0;
   background-color: #f2f2f2;
 

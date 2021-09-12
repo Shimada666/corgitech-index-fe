@@ -43,7 +43,12 @@ import Logo from '@/components/Logo.vue'
   align-items: center;
   z-index: -1;
 
+  .main {
+    max-height: calc(100vh - 64px);
+  }
+
   .container {
+    max-height: 100%;
     padding-top: 8rem;
     padding-bottom: 12rem;
     text-align: center;
