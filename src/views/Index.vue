@@ -62,6 +62,7 @@ import Logo from '@/components/Logo.vue'
       margin-top: 0;
       font-size: 64px;
       font-family: DaxlinePro-Medium, sans-serif;
+      letter-spacing: 2px;
     }
 
     .intro {
