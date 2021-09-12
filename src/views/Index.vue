@@ -34,7 +34,7 @@ import Logo from '@/components/Logo.vue'
   width: 100vw;
   height: calc(100vh - 64px);
   background-color: #152d35;
-  background-image: url("../assets/img/bg.png");
+  background-image: url("../assets/img/bgs.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
