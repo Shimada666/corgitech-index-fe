@@ -9,7 +9,7 @@ import Logo from '@/components/Logo.vue'
     <div class="main">
       <div class="container">
         <logo
-          class="logo"
+          class="logo m-auto"
           :width="40"
           type="white" />
         <div class="title">CorgiTech</div>
@@ -19,7 +19,7 @@ import Logo from '@/components/Logo.vue'
           <div class="intro-text">这是第三行</div>
         </div>
         <div class="link">
-          博客&nbsp;c>&nbsp;&nbsp;二狗&nbsp;&nbsp;>&nbsp;&nbsp;了解我们
+          博客&nbsp;>&nbsp;&nbsp;二狗&nbsp;&nbsp;>&nbsp;&nbsp;了解我们
         </div>
       </div>
     </div>
@@ -56,6 +56,15 @@ import Logo from '@/components/Logo.vue'
       </div>
     </div>
   </div>
+  <div class="main">
+    <hr class="mt-8">
+  </div>
+  <div class="main">
+    <div class="mt-4 text-sm text-center">
+      <a href="https://beian.miit.gov.cn/" target="_blank">渝ICP备2020011666号-1</a>
+    </div>
+  </div>
+  <div class="mb-8" />
 </template>
 
 <style lang="scss" scoped>
