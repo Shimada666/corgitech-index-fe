@@ -12,14 +12,14 @@ import Logo from '@/components/Logo.vue'
           class="logo m-auto"
           :width="40"
           type="white" />
-        <div class="title">CorgiTech</div>
+        <div class="title">柯小基网</div>
         <div class="intro">
           <div class="intro-text">这里是第一行字</div>
           <div class="intro-text">这里是第二行长一点的字</div>
           <div class="intro-text">这是第三行</div>
         </div>
         <div class="link">
-          博客&nbsp;>&nbsp;&nbsp;二狗&nbsp;&nbsp;>&nbsp;&nbsp;了解我们
+          博客&nbsp;&nbsp;>&nbsp;&nbsp;二狗&nbsp;&nbsp;>&nbsp;&nbsp;了解我们
         </div>
       </div>
     </div>
