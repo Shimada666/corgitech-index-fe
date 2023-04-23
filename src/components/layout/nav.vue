@@ -1,3 +1,7 @@
+<script lang="ts" setup name="Nav">
+
+</script>
+
 <template>
   <nav class="nav">
     <div class="nav-home">
@@ -5,14 +9,6 @@
     </div>
   </nav>
 </template>
-
-<script lang="ts">
-import { defineComponent } from 'vue'
-
-export default defineComponent({
-  name: 'Nav'
-})
-</script>
 
 <style scoped lang="scss">
 .nav {

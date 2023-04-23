@@ -1,3 +1,11 @@
+<script lang="ts">
+import { defineComponent } from 'vue'
+
+export default defineComponent({
+  name: 'SideBar',
+})
+</script>
+
 <template>
   <div class="sidebar-container">
     <span class="sidebar-title">
@@ -8,7 +16,8 @@
       background-color="#f7f7f7"
       default-active="2"
       router
-      class="sidebar">
+      class="sidebar"
+    >
       <el-submenu index="1">
         <template #title>
           <i class="el-icon-s-home" />
@@ -21,10 +30,10 @@
           服务情况
         </el-menu-item>
       </el-submenu>
-      <!--<el-menu-item index="/guide">-->
-      <!--  <i class="el-icon-s-home" />-->
-      <!--  <span slot="title">概览</span>-->
-      <!--</el-menu-item>-->
+      <!-- <el-menu-item index="/guide"> -->
+      <!--  <i class="el-icon-s-home" /> -->
+      <!--  <span slot="title">概览</span> -->
+      <!-- </el-menu-item> -->
       <el-submenu index="2">
         <template #title>
           <i class="el-icon-menu" />
@@ -36,19 +45,13 @@
       </el-submenu>
       <el-menu-item index="/project">
         <i class="el-icon-menu" />
-        <template #title>工程创建</template>
+        <template #title>
+          工程创建
+        </template>
       </el-menu-item>
     </el-menu>
   </div>
 </template>
-
-<script lang="ts">
-import { defineComponent } from 'vue'
-
-export default defineComponent({
-  name: 'SideBar'
-})
-</script>
 
 <style scoped lang="scss">
 .sidebar-container {

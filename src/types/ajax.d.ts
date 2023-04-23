@@ -12,17 +12,7 @@ declare namespace Ajax {
     error: Error
   }
 
-  // 分页接口数据
-  interface PageResult<T> {
-    total: number,
-    data: T[],
-    offset: number,
-    limit: number,
-
-    error?: Error
-  }
 
   // 类型别名
   export type PromiseAxiosResponse<T> = Promise<AxiosResponse<T>>
-  export type PromisePageResult<T> = Promise<PageResult<T>>
 }

@@ -1,4 +1,4 @@
-import { createWebHistory, createRouter } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
 // 当需要登录时启用
 // import Cookies from 'js-cookie'
 
@@ -7,22 +7,17 @@ const history = createWebHistory()
 const routes = [
   {
     path: '/:catchAll(.*)',
-    redirect: '/'
-  },
-  {
-    path: '/login',
-    name: 'login',
-    component: () => import('@/views/login.vue')
+    redirect: '/',
   },
   {
     path: '/',
     name: 'home',
-    component: () => import('@/views/Index.vue')
-  }
+    component: () => import('@/views/Index.vue'),
+  },
 ]
 const router = createRouter({
   history,
-  routes
+  routes,
 })
 
 // router.beforeEach((to, from, next) => {

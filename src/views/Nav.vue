@@ -8,9 +8,15 @@ import Logo from '@/components/Logo.vue'
       <div class="content">
         <Logo :width="30" />
         <div class="link-wrapper">
-          <div class="link">Program</div>
-          <div class="link">Blog</div>
-          <div class="link">About</div>
+          <div class="link">
+            Program
+          </div>
+          <div class="link">
+            Blog
+          </div>
+          <div class="link">
+            About
+          </div>
         </div>
       </div>
     </div>

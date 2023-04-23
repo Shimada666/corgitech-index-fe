@@ -4,7 +4,7 @@ import Index from '@/views/Index.vue'
 </script>
 
 <template>
-  <index />
+  <Index />
 </template>
 
 <style>

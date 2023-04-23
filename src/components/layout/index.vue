@@ -1,3 +1,13 @@
+<script lang="ts" setup>
+import { defineComponent, toRaw } from 'vue'
+import { useRoute, useRouter } from 'vue-router'
+import Nav from '@/components/layout/nav.vue'
+import SideBar from '@/components/layout/sidebar.vue'
+
+const route = useRoute()
+const router = useRouter()
+</script>
+
 <template>
   <div class="layout">
     <Login v-if="route.name === 'login'" />
@@ -14,31 +24,6 @@
     </div>
   </div>
 </template>
-
-<script lang="ts">
-import Nav from '@/components/layout/nav.vue'
-import SideBar from '@/components/layout/sidebar.vue'
-import Login from '@/views/login.vue'
-import { defineComponent, toRaw } from 'vue'
-import { useRoute, useRouter } from 'vue-router'
-
-export default defineComponent({
-  name: 'Layout',
-  components: {
-    Nav,
-    SideBar,
-    Login
-  },
-  setup () {
-    const route = useRoute()
-    const router = useRouter()
-    return {
-      route,
-      router
-    }
-  }
-})
-</script>
 
 <style scoped lang="scss">
 .layout {
