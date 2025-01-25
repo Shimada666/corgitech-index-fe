@@ -5,7 +5,7 @@ COPY . /app
 
 RUN  pnpm i && pnpm build
 
-FROM nginx:stable-alpine
+FROM ccr.ccs.tencentyun.com/corgi/nginx:alpine
 COPY --from=build /app/dist /usr/share/nginx/html
 EXPOSE 80
 CMD ["nginx","-g","daemon off;"]

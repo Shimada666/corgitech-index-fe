@@ -18,17 +18,14 @@ import Logo from '@/components/Logo.vue'
         </div>
         <div class="intro">
           <div class="intro-text">
-            这里是第一行字
+            一个技术分享网站
           </div>
           <div class="intro-text">
-            这里是第二行长一点的字
+            这里会分享一些技术文章
           </div>
           <div class="intro-text">
-            这是第三行
+            正在施工中
           </div>
-        </div>
-        <div class="link">
-          博客&nbsp;&nbsp;>&nbsp;&nbsp;二狗&nbsp;&nbsp;>&nbsp;&nbsp;了解我们
         </div>
       </div>
     </div>
@@ -43,13 +40,14 @@ import Logo from '@/components/Logo.vue'
       <div class="right">
         <div class="article">
           <div class="article-title">
-            第一篇文章: 小标题小标题
+            DeepSeek性能与美国最好的AI模型相当
           </div>
           <div class="article-content">
-            简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介
+            在2025年达沃斯论坛上，AI科技初创公司Scale AI创始人亚历山大·王（Alexandr Wang）公开表示，中国人工智能公司DeepSeek的AI大模型性能大致与美国最好的模型相当。
+DeepSeek在去年圣诞当天发布了一款AI大模型引发了硅谷的热议。在达沃斯论坛上接受电视媒体公开采访时，Alexandr Wang认为，过去十年来，美国可能一直在人工智能竞赛中领先于中国，但DeepSeek的AI大模型发布可能会“改变一切”。
           </div>
           <div class="article-footer">
-            <span class="article-date">2021-9-11</span>
+            <span class="article-date">2025-01-24</span>
             <span class="article-author">Lune</span>
           </div>
         </div>
@@ -64,13 +62,15 @@ import Logo from '@/components/Logo.vue'
       <div class="right">
         <div class="article">
           <div class="article-title">
-            第一篇文章: 小标题小标题
+            Kimi深夜甩出对标满血版o1多模态思考模型，技术细节全公开
           </div>
           <div class="article-content">
-            简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介
+            就在本周一，Kimi发布了多模态思考模型k1.5，并且模型性能直接对标OpenAI 满血版 o1，在数学、代码、多模态推理能力等方面全方面追平，是OpenAI之外首个多模态o1模型。
+
+可谓创造历史。
           </div>
           <div class="article-footer">
-            <span class="article-date">2021-9-11</span>
+            <span class="article-date">2025-01-24</span>
             <span class="article-author">Lune</span>
           </div>
         </div>
